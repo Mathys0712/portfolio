@@ -1,0 +1,21 @@
+    .profile-photo {
+        border-radius: 20%;
+        max-width: 350px;
+        object-fit: cover;
+        display: block;
+        margin: 300px auto 0 350px; /* TOP RIGHT BOTTOM LEFT */    
+    }
+
+    .name {
+        flex: 1;
+        font-size: 90px;
+        margin: auto auto 195px auto;
+    }
+
+    .description {
+        gap: 15px;
+        font-size: 40px;
+        margin: auto 600px 100px auto;
+    }
+
+    
