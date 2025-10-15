@@ -25,3 +25,7 @@ Mon objectif est de le rendre **toujours plus beau, fluide et interactif** au fi
 
 Merci de prendre le temps de visiter mon travail !  
 Toute **suggestion** ou **retour** est le bienvenu pour m’aider à progresser. 😊  
+
+## 🚨 Problèmes
+
+Le Github Pages de ce projet est mal réglé depuis le dernier push (15/10/2025) ceci sera réglé au prochain.
