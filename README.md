@@ -1,13 +1,27 @@
-Mon premier portfolio HTML & CSS 🎨
+# Mon premier portfolio HTML & CSS 🎨
 
-Bienvenue sur mon tout premier portfolio !
+Bienvenue sur **mon tout premier portfolio** !
+Ce projet marque le début de mon apprentissage  du **Développement Web**, et j'ai voulu créer quelque chose de *simple, propre et fonctionnel*, uniquement avec **HTML** et **CSS**. (*pour l'instant*)
 
-Ici, j’ai essayé de créer quelque chose de propre et fonctionnel, uniquement avec mes connaissances en HTML et CSS.
 
-J’ai exploré différentes méthodes pour mettre en page mes contenus, et j’ai fait ce portfolio sans tricher, même si ChatGPT est intervenu une fois pour corriger un petit souci d’espacement entre les paragraphes.
+## 🧠 À propos
 
-🕒 J’y ai passé environ 1h30, le temps d’apprendre quelques petits trucs en HTML et CSS.
+Je mets régulièrement ce projet à jour dès que j’ai un peu de temps libre, ou lorsque j’apprends de nouvelles choses sur ces langages. 💡  
 
-Ce portfolio est un résumé de moi et de ma passion pour l’informatique, et j’essaierai d’y apporter des améliorations au fil du temps pour le rendre encore plus beau et interactif. 🙂
+Ce portfolio est avant tout un **reflet de ma passion pour l’informatique** et de ma progression dans ce domaine.  
+Mon objectif est de le rendre **toujours plus beau, fluide et interactif** au fil du temps. 🚀
 
-🔗 Il est disponible ici : [Mon portfolio](https://mathys0712.github.io/portfolio/)
+🔗 **Il est disponible ici :** [Mon portfolio](https://mathys0712.github.io/portfolio/)
+
+
+## 🛠️ Dernière mise à jour
+
+- ✅ Correction de plusieurs petites erreurs  
+- 🧩 Début de la **page Projets** (avec ce premier projet !)  
+- 📬 Début de la **page Contact**
+
+
+## 💬 Remerciements
+
+Merci de prendre le temps de visiter mon travail !  
+Toute **suggestion** ou **retour** est le bienvenu pour m’aider à progresser. 😊  
