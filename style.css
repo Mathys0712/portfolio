@@ -1,0 +1,543 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "Outfit", sans-serif;
+    background-color: #0F172A;
+}
+
+nav h1.title {
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #f5f5f5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 25%;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-right: 25%;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c0bebe;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #14213d;
+}
+
+.profile-pic {
+    display: block;
+    margin-top: 4%;
+    margin-left: 28%;
+    width: 70px;
+    height: 70px;
+}
+
+.name {
+    font-family: "Outfit", sans-serif;
+    color: #16a34a; /* fallback */
+    background: linear-gradient(90deg, #16a34a 0%, #facc15 50%, #fff7b2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 33%;
+    margin-top: -80px;
+    margin: -80px 0 0 34%;
+    font-size: 45px;
+}
+
+.bio {
+    font-family: "Outfit", sans-serif;
+    color: #c0bebe;
+    margin: 0 0 0 34%;
+    font-size: 20px;
+    max-width: 700px;
+}
+
+.projets-title {
+    font-family: "Outfit", sans-serif;
+    color: #f5f5f5;
+    margin-left: 28%;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.projets-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin: 40px 10%;
+}   
+
+.project-card {
+    background-color: #1e293b;
+    border: 2px solid #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-name {
+    font-family: "Outfit", sans-serif;
+    color: #f5f5f5;
+    font-size: 30px;
+    margin: 15px 0 10px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    word-break: break-word;
+}
+
+
+.project-description {
+    font-family: "Roboto", sans-serif;
+    max-width: 800px;
+    font-weight: 400;
+    color: #00509d;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.compétences-title {
+    font-family: "Outfit", sans-serif;
+    color: #f5f5f5;
+    margin-left: 28%;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin: 40px 10%;
+}
+
+.skill-card {
+    background-color: #1e293b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    margin-right: 30%;
+    margin-top: -5px;
+    box-sizing: border-box;
+}
+
+.skill-name {
+    font-family: "Outfit", sans-serif;
+    color: #f5f5f5;
+    font-size: 24px;
+    margin: 20px 0 10px 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    word-break: break-word;
+}
+
+.skill-description {
+    font-family: "Roboto", sans-serif;
+    max-width: 250px;
+    font-weight: 550;
+    color: #888a8b;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.skill-card2 {
+    background-color: #1e293b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px; /* rendu plus large */
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    box-sizing: border-box;
+    /* étire la carte vers la droite au lieu de la décaler */
+    flex: 1 1 340px !important;
+}
+
+/* override .skill-card margins so both cards align side-by-side */
+.skills-container .skill-card,
+.skills-container .skill-card2 {
+    margin: 0;
+    flex: 0 1 300px;
+}
+
+.skill-name2 {
+    font-family: "Outfit", sans-serif;
+    color: #f5f5f5;
+    font-size: 24px;
+    margin: 20px 0 10px 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    word-break: break-word;
+}
+
+.skill-description2 {
+    font-family: "Roboto", sans-serif;
+    max-width: 550px;
+    font-weight: 550;
+    color: #888a8b;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.skill-icon2 {
+    width: 80px;
+    height: 80px;
+    margin-right: 90%;
+}
+
+.contact-title {
+    font-family: "Outfit", sans-serif;
+    color: #f5f5f5;
+    margin-left: 28%;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact-info {
+    font-family: "Roboto", sans-serif;
+    color: #c0bebe;
+    margin: 20px 0 0 34%;
+    font-size: 18px;
+    max-width: 700px;
+}
+
+.my-mail {
+    color: #c0bebe;
+    text-decoration: underline;
+}
+
+.social-title {
+    font-family: "Outfit", sans-serif;
+    color: #f5f5f5;
+    margin-left: 28%;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* Social section — simplified, non-responsive, polished */
+.social-icons,
+.social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    padding: 12px;
+    max-width: 640px;
+    width: calc(100% - 4rem);
+    box-sizing: border-box;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));
+    border: 1px solid rgba(255,255,255,0.04);
+    box-shadow: 0 10px 30px rgba(2,6,23,0.45);
+    backdrop-filter: blur(6px);
+}
+
+/* Shared icon link styles */
+.social-icons a,
+.social-links a,
+.link-github,
+.link-discord {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    background: rgba(245,245,245,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    color: #c0bebe;
+    text-decoration: none;
+    transition: transform 180ms cubic-bezier(.2,.9,.3,1), box-shadow 180ms, background 180ms;
+    will-change: transform;
+}
+
+/* Slight visual distinction for primary icon */
+.link-github {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.03));
+}
+
+/* Icon graphics sizing and color */
+.social-icons img,
+.social-links img,
+.social-icons svg,
+.social-links svg,
+.social-icon-discord {
+    width: 24px;
+    height: 24px;
+    display: block;
+    object-fit: contain;
+    fill: currentColor;
+    color: #c0bebe;
+}
+
+/* Hover / focus interactions */
+.social-icons a:hover,
+.social-links a:hover,
+.social-icons a:focus,
+.social-links a:focus {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 14px 40px rgba(2,6,23,0.5);
+    background: rgba(255,255,255,0.04);
+    outline: none;
+}
+
+/* Active and keyboard focus states */
+.social-icons a:active,
+.social-links a:active {
+    transform: translateY(-2px) scale(0.99);
+}
+.social-icons a:focus-visible,
+.social-links a:focus-visible {
+    box-shadow: 0 0 0 4px rgba(99,102,241,0.14);
+    border-color: rgba(99,102,241,0.28);
+}
+
+/* Tablet / small laptop */
+@media (max-width: 900px) {
+    nav {
+        padding: 12px 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    nav h1.title {
+        margin: 0;
+        font-size: 22px;
+        order: 1;
+        text-align: center;
+    }
+
+    nav ul {
+        order: 3;
+        margin: 0;
+        margin-top: 8px;
+        gap: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .profile-pic {
+        order: 2;
+        margin: 12px auto 0;
+        width: 64px;
+        height: 64px;
+    }
+
+    /* Remove negative margins from .name and center it */
+    .name {
+        margin: 8px auto 0;
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .bio {
+        margin: 6px auto 0;
+        text-align: center;
+        width: 90%;
+        font-size: 18px;
+    }
+
+    /* Titles use auto margins instead of large left offsets */
+    .projets-title,
+    .compétences-title {
+        margin: 30px auto 0;
+        text-align: left;
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .projets-container,
+    .skills-container {
+        margin: 30px 6%;
+        gap: 24px;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 100%;
+        margin: 20px auto;
+        padding: 16px;
+    }
+
+    .project-name { font-size: 26px; }
+
+    /* Stack skill cards and make them full width */
+    .skill-card,
+    .skill-card2 {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 16px;
+        box-sizing: border-box;
+        flex: 1 1 100%;
+    }
+
+    .skill-icon,
+    .skill-icon2 {
+        width: 64px;
+        height: 64px;
+        margin: 0 10px 10px 0;
+    }
+
+    .skill-name,
+    .skill-name2 {
+        font-size: 22px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    nav {
+        padding: 10px 12px;
+    }
+
+    nav h1.title {
+        font-size: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    .profile-pic {
+        width: 56px;
+        height: 56px;
+        margin-top: 8px;
+    }
+
+    .name {
+        font-size: 28px;
+        margin-top: 6px;
+        text-align: center;
+    }
+
+    .bio {
+        font-size: 15px;
+        width: 92%;
+    }
+
+    .projets-title,
+    .compétences-title {
+        margin: 18px 4%;
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .projets-container,
+    .skills-container {
+        margin: 18px 4%;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .project-card {
+        padding: 12px;
+        margin: 12px auto;
+    }
+
+    .project-description,
+    .skill-description,
+    .skill-description2 {
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+    .skill-name,
+    .skill-name2 {
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+    .skill-icon,
+    .skill-icon2 {
+        width: 56px;
+        height: 56px;
+        margin-right: 0;
+    }
+
+    /* Ensure no left/right offsets remain from desktop rules */
+    .skill-card {
+        margin-right: 0;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 380px) {
+    nav h1.title { font-size: 18px; }
+    .name { font-size: 20px; }
+    .project-name { font-size: 20px; }
+    .project-description,
+    .bio { font-size: 13px; }
+    .projets-container,
+    .skills-container { margin: 12px 3%; gap: 10px; }
+    .profile-pic { width: 48px; height: 48px; }
+}
